@@ -1,0 +1,24 @@
+
+print("Calculadora")
+print("Elija el numero de la operacion que desea realizar:")
+print("1 suma")
+print("2 division")
+print("3 multiplicacion")
+a = input ()
+if int (a) == 1 :
+    b = input ("Ingresa el primer numero : ")
+    print("+")
+    c = input ("Ingresa el segundo numero : ")
+    print ("Resultado = ")
+    print (int (b) + int (c))
+elif int(a) == 2 :
+    b = input ("Ingresa el primer numero : ")
+    print("/")
+    c = input ("Ingresa el segundo numero : ")
+    print (int(b) // int (c))
+    
+elif int(a) == 3 :
+    b = input ("Ingresa el primer numero : ")
+    print("*")
+    c = input ("Ingresa el segundo numero : ")
+    print ( int(b) * int (c))
